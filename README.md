@@ -22,6 +22,6 @@ docker build . -t post2slack
 ### ship 
 
 ```
-docker run  -p 80:80 --env-file .env slack
+docker run -p 80:80 --env-file .env slack
 ```
 

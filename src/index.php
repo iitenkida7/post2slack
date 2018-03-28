@@ -3,14 +3,14 @@ mb_language('Japanese');
 
 define('SLACK_API_POST','https://slack.com/api/chat.postMessage');
 
-$message   = "ishii";// $_GET['message'];
+$message   = "Hello!";
 
 $reqParmArray = [
         'token'     => getenv('TOKEN'),
         'channel'   => getenv('CHANNEL'),
         'text'      => $message ,
-        'username'  => 'ISHII_Bot',
-        'icon_url'  => 'http://kanri.sen-sv.net/slack/image/melon.jpg',
+        'username'  => 'Lenna',
+        'icon_url'  => 'https://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png',
         'pretty'    => 1 ,
         ];
 
